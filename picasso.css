@@ -1,0 +1,21 @@
+.grid-box {
+    background-color: teal;
+    border: .5em solid white;
+    color: teal;
+    height: 10em;
+    width: 15em;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.big-box {
+    background-color: teal;
+    border: .5em solid white;
+    color: teal;
+}

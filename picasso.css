@@ -1,21 +1,25 @@
 .grid-box {
     background-color: teal;
-    border: .5em solid white;
+    border: .2em solid white;
     color: teal;
     height: 10em;
-    width: 15em;
-    position: relative;
+    width: 100%;
+    /* position: relative; */
 }
 
 .grid {
-    display: grid;
+    /* display: grid; */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+
 }
 
 .big-box {
     background-color: teal;
-    border: .5em solid white;
+    border: .2em solid white;
     color: teal;
+    height: 20em;
+    display: flex;
+
 }

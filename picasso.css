@@ -1,8 +1,8 @@
 .grid-box {
-    background-color: teal;
+    background-color: #0ba5a5;
     border: .2em solid white;
-    color: teal;
-    height: 10em;
+    color: #0ba5a5;
+    height: 6em;
     width: 100%;
     /* position: relative; */
 }
@@ -16,10 +16,29 @@
 }
 
 .big-box {
-    background-color: teal;
+    background-color: #0ba5a5;
     border: .2em solid white;
-    color: teal;
-    height: 20em;
+    color: #0ba5a5;
+    height: 15em;
     display: flex;
+
+}
+
+.bottom-box {
+    background-color: yellowgreen;
+    color: yellowgreen;
+    ;
+}
+
+.circles{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.pink{
+    background-color: pink;
+    position: absolute;
+    right: 150px;
 
 }

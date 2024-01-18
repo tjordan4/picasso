@@ -1,44 +1,69 @@
 .grid-box {
     background-color: #0ba5a5;
-    border: .2em solid white;
-    color: #0ba5a5;
-    height: 6em;
+    border: .5em solid white;
+    height: 20em;
     width: 100%;
-    /* position: relative; */
+    
 }
 
 .grid {
-    /* display: grid; */
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
 
 }
 
 .big-box {
     background-color: #0ba5a5;
-    border: .2em solid white;
-    color: #0ba5a5;
-    height: 15em;
+    border: .5em solid white;
+    height: 30em;
     display: flex;
 
 }
 
 .bottom-box {
     background-color: yellowgreen;
-    color: yellowgreen;
-    ;
+    border: .5em solid white;
+    height: 1em;
+
 }
 
-.circles{
-    width: 15px;
-    height: 10px;
+.circle{
     border-radius: 50%;
+    z-index: 2;
 }
 
-.pink{
+.pink1{
     background-color: pink;
     position: absolute;
-    right: 150px;
+    top: 1em;
+    left: 5em;
+    width: 2.5em;
+    height: 2.5em;
+}
 
+.pink2 {
+    background-color: pink;
+    position: absolute;
+    top: 9em;
+    left: 5em;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.pink3 {
+    background-color: pink;
+    position: absolute;
+    top: 9em;
+    left: 16.5em;
+    width: 6em;
+    height: 6em;
+}
+
+.pink4 {
+    background-color: pink;
+    position: absolute;
+    top: 3em;
+    left: 25em;
+    width: 2.5em;
+    height: 2.5em;
 }

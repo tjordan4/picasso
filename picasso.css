@@ -145,3 +145,7 @@
     height: 10vw;
     position: absolute;
 }
+
+.form {
+    display: inline-block;
+}
